@@ -883,7 +883,10 @@ with gr.Blocks(theme=THEME, css=CSS) as demo:
     
     with gr.Column(elem_classes="testimonial-slider"):
         gr.Markdown("### What Our Users Say")
-        gr.Markdown(""""VisaTier helped me choose the perfect country for my startup. The ROI analysis was incredibly accurate!""" - Alex R., Startup Founder")
+         gr.Markdown(
+            "“VisaTier helped me choose the perfect country for my startup. "
+            "The ROI analysis was incredibly accurate!” — Alex R., Startup Founder"
+        )
     
     gr.HTML("""
         <div class="vt-footer">
