@@ -882,8 +882,8 @@ with gr.Blocks(theme=THEME, css=CSS) as demo:
             gr.Button("Share on WhatsApp", elem_classes="share-button share-whatsapp")
     
     with gr.Column(elem_classes="testimonial-slider"):
-        gr.Markdown("### What Our Users Say")
-         gr.Markdown(
+    gr.Markdown("### What Our Users Say")
+    gr.Markdown(
             "“VisaTier helped me choose the perfect country for my startup. "
             "The ROI analysis was incredibly accurate!” — Alex R., Startup Founder"
         )
